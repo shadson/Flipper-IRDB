@@ -1,0 +1,156 @@
+Filetype: IR signals file
+Version: 1
+#
+# Toyota Highlander 2015 Rear Entertainment System
+#
+# Source: https://www.toyotanation.com/threads/rear-entertainment-system-remote-codes-cloning.1640162
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: B2 4D 00 00
+# 
+name: POWEROFF
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 8C 73 00 00
+# 
+name: AUDIOOUTPUT
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: B4 4B 00 00
+# 
+name: SETTINGS
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 88 77 00 00
+# 
+name: DVD1
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 18 E7 00 00
+# 
+name: DVD2
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 0E F1 00 00
+# 
+name: SDCARD
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 6E 91 00 00
+# 
+name: DISPLAY
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: A8 57 00 00
+# 
+name: AVSETTINGS
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 54 AB 00 00
+# 
+name: SIZE
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 68 97 00 00
+# 
+name: UP
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 04 FB 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 84 7B 00 00
+#
+name: LEFT
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 44 BB 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: C4 3B 00 00
+# 
+name: SELECT
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 14 EB 00 00
+# 
+name: VOLUMEUP
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 60 9F 00 00
+# 
+name: VOLUMEDOWN
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: E0 1F 00 00
+# 
+name: REW
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 38 C7 00 00
+# 
+name: PLAYPAUSE
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 78 87 00 00
+# 
+name: FFWD
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: F8 07 00 00
+# 
+name: CHAPTERUP
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 50 AF 00 00
+# 
+name: STOP
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: B8 47 00 00
+# 
+name: CHAPTERDOWN
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: D0 2F 00 00
+# 
+name: TOPMENU
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 58 A7 00 00
+# 
+name: TITLEMENU
+type: parsed
+protocol: NECext
+address: 01 E7 00 00
+command: 98 67 00 00
